@@ -30,11 +30,11 @@ char auth[] = "8b67b5ee09394fd89b8a7ef9567402e9";
 //char pass[] = "e44ggbvswiqyb";
 //char ssid[] = "RESNET-WARREN-WEST";
 //char pass[] = "";
-//char ssid[] = "Verizon VS990 66CF";
-//char pass[] = "a]6eW@8a";
+char ssid[] = "Verizon VS990 66CF";
+char pass[] = "a]6eW@8a";
 
-char ssid[] = "Nancy";
-char pass[] = "gintama1";
+//char ssid[] = "Nancy";
+//char pass[] = "gintama1";
 
 // Hardware Serial on Mega, Leonardo, Micro...
 // #define EspSerial Serial1
@@ -48,8 +48,8 @@ SoftwareSerial EspSerial(2, 3); // RX, TX
 
 ESP8266 wifi(&EspSerial);
 
-double currentLat = 32.883490;
-double currentLong = -117.241500;
+double currentLat = 32.882070;
+double currentLong = -117.235472;
 double phoneLat = currentLat;
 double phoneLong = currentLong;
 const double maxKmRange = 0.02;
