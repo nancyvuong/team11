@@ -48,8 +48,8 @@ SoftwareSerial EspSerial(2, 3); // RX, TX
 
 ESP8266 wifi(&EspSerial);
 
-double currentLat = 32.882070;
-double currentLong = -117.235472;
+double currentLat = 32.881981;
+double currentLong = -117.235576;
 double phoneLat = currentLat;
 double phoneLong = currentLong;
 const double maxKmRange = 0.02;
