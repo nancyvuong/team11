@@ -60,9 +60,9 @@ range, and set the coffee machine’s pin to HIGH or LOW.
 
 **Testing Tips**
 
-```
+
 Once the code and circuit are ready, the project is ready to test.
-```
+
 If you don’t have access to Wi-Fi that allows devices on the network, you could try using
 a phone hotspot instead. Use phones with good service. Make sure that the GPS stream widget
 is chosen in the blink app and that the virtual pin that it writes to matches the one that you call
