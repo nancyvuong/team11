@@ -1,2 +1,3 @@
-# team11
-Quarterly Project 2018
+# Proximity Activated Coffee Brewer
+Created for UCSD's IEEE Quarterly Project 2018
+Please check 
