@@ -12,10 +12,10 @@ Connect the ESP to the Arduino like so (left are ESP pins, right are Arduino pin
 
 Please check "Team11_Documentation.pdf" above for the corresponding photos needed for this part.
 
-*GND to GND
-*RX to 0
-*TX to 1
-*VCC and CH_PD to 3.3V
+* GND to GND
+* RX to 0
+* TX to 1
+* VCC and CH_PD to 3.3V
 
 Open the Arduino IDE’s Serial Monitor. Set line endings to “Both NL and CR”. After
 typing in AT and pressing Enter, an “OK” should pop up - try setting the baud rate to 9600 or
