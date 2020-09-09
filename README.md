@@ -85,8 +85,7 @@ connected to Blynk through Wi-Fi was a great relief.
 **References**
 
 Distance in km between latitude and longitude:
-https://stackoverflow.com/questions/10198985/calculating-the-distance-between-2-latitudes-and
--longitudes-that-are-saved-in-a
+https://stackoverflow.com/questions/10198985/calculating-the-distance-between-2-latitudes-and-longitudes-that-are-saved-in-a
 
 Blynk sketches to test code:
 https://examples.blynk.cc
