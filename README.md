@@ -1,5 +1,9 @@
 # Proximity Activated Coffee Brewer
-Team 11's entry for UCSD's IEEE Quarterly Project 2018
+This project is a proximity-based coffee brewer. Coffee is a beverage consumed daily by
+millions of people, so why not integrate the brewing process seamlessly into your daily routine?
+This is perfect for anyone that wants coffee to start brewing once they arrive at work or home -
+by checking the location of the connected Arduino to your phone’s location data, it can
+automatically start brewing when you are nearby and deactivate when you leave.
 
 # Instructions
 
@@ -8,10 +12,10 @@ Connect the ESP to the Arduino like so (left are ESP pins, right are Arduino pin
 
 Please check "Team11_Documentation.pdf" above for the corresponding photos needed for this part.
 
-GND to GND
-RX to 0
-TX to 1
-VCC and CH_PD to 3.3V
+*GND to GND
+*RX to 0
+*TX to 1
+*VCC and CH_PD to 3.3V
 
 Open the Arduino IDE’s Serial Monitor. Set line endings to “Both NL and CR”. After
 typing in AT and pressing Enter, an “OK” should pop up - try setting the baud rate to 9600 or
@@ -30,7 +34,6 @@ most likely be red and coming directly from the external plug. You’ll want to 
 wire between its connection to the external plug and its connection to anything else; the
 ‘anything else’ will likely be the switch that allows the coffee-drinker to turn the machine on and
 off. Now there are two ends of that wire where the cut was made. Take the end that is
-
 
 connected to the external plug and strip enough of the insulation to get it into the relay. Connect
 this end to the middle pin. You’ll need a screwdriver to secure this wire in place. Assuming that
@@ -66,14 +69,6 @@ is chosen in the blink app and that the virtual pin that it writes to matches th
 from the code in the BLYNK_WRITE method. Connect the Arduino to your computer and review
 the messages in the serial terminal to help debug. The ESP does not have a connection to the
 Blynk server until a ready/ping message is written to the terminal.
-
-**Introduction**
-
-This project is a proximity-based coffee brewer. Coffee is a beverage consumed daily by
-millions of people, so why not integrate the brewing process seamlessly into your daily routine?
-This is perfect for anyone that wants coffee to start brewing once they arrive at work or home -
-by checking the location of the connected Arduino to your phone’s location data, it can
-automatically start brewing when you are nearby and deactivate when you leave.
 
 
 **Conclusion**
